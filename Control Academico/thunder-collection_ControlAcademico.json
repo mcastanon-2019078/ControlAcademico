@@ -1,0 +1,302 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ControlAcademico",
+    "dateExported": "2024-03-04T04:29:47.142Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "0112aab0-3ad2-48b5-9f41-f577e94544c5",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-03-04T04:27:55.612Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "e5fe97b1-7136-44cd-afe2-8e646f391f02",
+            "name": "Course",
+            "containerId": "",
+            "created": "2024-03-04T04:27:55.613Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "b7b09001-d1da-4ae6-b47b-86c61141bb89",
+            "colId": "83df3f9a-3e04-4202-b3ad-e529e17f4e70",
+            "containerId": "0112aab0-3ad2-48b5-9f41-f577e94544c5",
+            "name": "login",
+            "url": "/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-04T04:27:55.612Z",
+            "modified": "2024-03-04T04:28:51.797Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "mcastanon"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "8c0aadcf-0427-40c7-9170-789a84dd85c5",
+            "colId": "83df3f9a-3e04-4202-b3ad-e529e17f4e70",
+            "containerId": "0112aab0-3ad2-48b5-9f41-f577e94544c5",
+            "name": "register",
+            "url": "/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-04T04:27:55.613Z",
+            "modified": "2024-03-04T04:28:41.746Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "marco"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "castanon"
+                    },
+                    {
+                        "name": "username",
+                        "value": "mcastanon"
+                    },
+                    {
+                        "name": "email",
+                        "value": "mcastanon@kinal.edu.gt"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "14a42ed7-23e4-4192-bed0-658ccb621d2f",
+            "colId": "83df3f9a-3e04-4202-b3ad-e529e17f4e70",
+            "containerId": "0112aab0-3ad2-48b5-9f41-f577e94544c5",
+            "name": "update",
+            "url": "/update/",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-04T04:27:55.614Z",
+            "modified": "2024-03-04T04:28:59.813Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": ""
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Cruz"
+                    },
+                    {
+                        "name": "email",
+                        "value": "cruz@kinal.edu.gt"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "5c12b2e5-065b-4123-9128-069061cabbf4",
+            "colId": "83df3f9a-3e04-4202-b3ad-e529e17f4e70",
+            "containerId": "0112aab0-3ad2-48b5-9f41-f577e94544c5",
+            "name": "delete",
+            "url": "/deleteU/",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-04T04:27:55.615Z",
+            "modified": "2024-03-04T04:27:55.615Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": ""
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ebe62db2-8f01-48ba-9d25-ccb4a69207c7",
+            "colId": "83df3f9a-3e04-4202-b3ad-e529e17f4e70",
+            "containerId": "0112aab0-3ad2-48b5-9f41-f577e94544c5",
+            "name": "changeaAdmin",
+            "url": "/changeaAdmin/",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-03-04T04:27:55.616Z",
+            "modified": "2024-03-04T04:27:55.616Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": ""
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f6297fef-a47d-43c6-8298-3392f1bf2472",
+            "colId": "83df3f9a-3e04-4202-b3ad-e529e17f4e70",
+            "containerId": "e5fe97b1-7136-44cd-afe2-8e646f391f02",
+            "name": "registerCourse",
+            "url": "/registerCourse",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-03-04T04:27:55.617Z",
+            "modified": "2024-03-04T04:29:11.812Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "TECNOLOGIA"
+                    },
+                    {
+                        "name": "grade",
+                        "value": "SEXTO DIVERSIFICADO"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Informática"
+                    },
+                    {
+                        "name": "teacher",
+                        "value": ""
+                    },
+                    {
+                        "name": "students",
+                        "value": ""
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "77c9e128-b16d-4972-8b95-eae5742b468b",
+            "colId": "83df3f9a-3e04-4202-b3ad-e529e17f4e70",
+            "containerId": "e5fe97b1-7136-44cd-afe2-8e646f391f02",
+            "name": "allCourses",
+            "url": "/allCourses",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-03-04T04:27:55.618Z",
+            "modified": "2024-03-04T04:27:55.618Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": ""
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0a6c71b0-f163-4b56-94c5-524669314399",
+            "colId": "83df3f9a-3e04-4202-b3ad-e529e17f4e70",
+            "containerId": "e5fe97b1-7136-44cd-afe2-8e646f391f02",
+            "name": "updateC",
+            "url": "/updateC/",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-03-04T04:27:55.619Z",
+            "modified": "2024-03-04T04:29:31.491Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": ""
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Matematica"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Derivada"
+                    },
+                    {
+                        "name": "grade",
+                        "value": "QUINTO DIVERSIFICADO"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c8d12c34-c8b3-4652-8f4e-0fb21e1002c6",
+            "colId": "83df3f9a-3e04-4202-b3ad-e529e17f4e70",
+            "containerId": "e5fe97b1-7136-44cd-afe2-8e646f391f02",
+            "name": "deleteC",
+            "url": "/deleteC/",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2024-03-04T04:27:55.620Z",
+            "modified": "2024-03-04T04:27:55.620Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": ""
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c3a339fb-2a64-48d7-8d7f-d8391ec75d87",
+            "colId": "83df3f9a-3e04-4202-b3ad-e529e17f4e70",
+            "containerId": "e5fe97b1-7136-44cd-afe2-8e646f391f02",
+            "name": "joinCourse",
+            "url": "/joinCourse/",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2024-03-04T04:27:55.621Z",
+            "modified": "2024-03-04T04:27:55.621Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": ""
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:3000"
+        }
+    }
+}
